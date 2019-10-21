@@ -1,0 +1,17 @@
+CREATE TABLE login_table
+(
+userid varchar(20),
+password varchar(20),
+usertype varchar(20) CHECK(usertype='A' OR usertype='V' OR usertype='U'),
+status number CHECK(status=0 OR status=1 OR status=2)
+)
+
+
+INSERT INTO login_table VALUES ('admin','admin','A',1)
+
+INSERT INTO login_table VALUES ('abc','abc','V',0)
+
+
+INSERT INTO login_table VALUES ('xyz','xyz','U',2)
+
+SELECT * FROM login_table	

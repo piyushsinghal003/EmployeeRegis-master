@@ -1,0 +1,11 @@
+CREATE TABLE Employee
+(
+empID varchar(20),
+firstName varchar(20),
+lastName  varchar(20),
+salary number)
+
+
+INSERT INTO Employee VALUES ('1','ABC','XYZ',2);
+
+UPDATE Employee SET salary = 4 WHERE empID='1';	
