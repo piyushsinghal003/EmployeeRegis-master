@@ -3,7 +3,7 @@ import java.sql.*;
 
 
 public class DBUtils {
-	public static final String userName="TEJASWA";
+	public static final String userName="piyushsinghal003";
 	public static final String password="q";
 	public static final String url="jdbc:oracle:thin:@localhost:1521:XE";
 	public final static String driverName="oracle.jdbc.driver.OracleDriver";
